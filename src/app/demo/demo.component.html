@@ -1,0 +1,8 @@
+<h1>
+  {{num1}}
+</h1>
+<button [hidden]="flag" (click)="onclick()" >Click Me</button>
+<!--<input [(ngModel)]="str" type="text"/>
+<h1>{{str}}</h1>-->
+<input #input1 type="text" (keyup)="0"/>
+<h1>{{input1.value}}</h1>
